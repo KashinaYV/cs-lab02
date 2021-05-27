@@ -5,11 +5,18 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-int a, b,max;
+
+int a, b,max,min;
+
 cout << "A + B = " << a + b << '\n'
  << "A - B = " << a - b << '\n'
   << "A * B = " << a * b << '\n'
      << "A / B = " << a / b << '\n';
-cin >> a >> b,max;
+
+
+
+
+cin >> a >> b>>min>>max;
+
     return 0;
 }
